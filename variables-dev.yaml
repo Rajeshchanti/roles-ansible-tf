@@ -1,0 +1,10 @@
+MONGODB_HOST: mongodb-dev.techytrees.online
+REDIS_HOST: redis-dev.techytrees.online 
+MYSQL_HOST: mysql-dev.techytrees.online 
+RABBITMQ_HOST: rabbitmq-dev.techytrees.online 
+CATALOGUE_HOST: catalogue-dev.techytrees.online 
+USER_HOST: user-dev.techytrees.online 
+CART_HOST: cart-dev.techytrees.online 
+SHIPPING_HOST: shipping-dev.techytrees.online 
+PAYMENT_HOST: payment-dev.techytrees.online 
+DISPATCH_HOST: dispatch-dev.techytrees.online 

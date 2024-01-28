@@ -1,0 +1,12 @@
+- name: Install maven
+  ansible.builtin.dnf:
+    name: maven
+    state: present
+- name: Install mvn package
+  ansible.builtin.command: mvn clean package
+  args:
+    chdir: /app
+- name: Rename jar file
+  ansible.builtin.command: "mv target/{{component}}-{{shipping_version}}.jar {{component}}.jar"
+  args:
+    chdir: /app
